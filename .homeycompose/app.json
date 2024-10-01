@@ -1,13 +1,13 @@
 {
-  "id": "com.tuya.zigbee",
-  "version": "0.2.63",
+  "id": "com.tuya.zigbee-jrevi",
+  "version": "0.2.63-jrevi",
   "compatibility": ">=5.0.0",
   "platforms": [
     "local"
   ],
   "sdk": 3,
   "name": {
-    "en": "Tuya Zigbee"
+    "en": "Tuya Zigbee JREVI"
   },
   "description": {
     "en": "Control your white label Zigbee devices made by Tuya"

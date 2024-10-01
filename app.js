@@ -7,7 +7,11 @@ debug(true);
 class tuyazigbee extends Homey.App {
 	
 	onInit() {
-		this.log('Tuya Zigbee app is running...');
+		//if (process.env.DEBUG === '1') {
+			require('inspector').open(9222, '0.0.0.0', true);
+		//}
+
+		this.log('Tuya Zigbee JREVI app is running...');
 
 		this.homey.flow.getActionCard('start_effect').registerRunListener(async (args, state) => {
 			this.log("Christmas Lights Action Triggered");

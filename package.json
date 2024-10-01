@@ -1,6 +1,6 @@
 {
-  "name": "com.tuya.zigbee",
-  "version": "0.2.63",
+  "name": "com.tuya.zigbee-jrevi",
+  "version": "0.2.63-jrevi",
   "description": "Adds support for Tuya Zigbee devices to Homey",
   "main": "app.js",
   "scripts": {
